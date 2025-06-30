@@ -418,7 +418,7 @@ int main()
 	float deposit = 0;
 	char deposit_ans;
 
-	cout << "==== WELCOME TO TURK BANK LTD====\n  1. Current User\n  2. Open Account\n  3. Exit ";
+	cout << "==== WELCOME ====\n  1. Current User\n  2. Open Account\n  3. Exit ";
 	do
 	{
 		cout << "\nCHOOSE: ";
@@ -567,7 +567,7 @@ int main()
 		}						// swich
 	} while (loop_main == 'y'); // first step input iske ander switch case
 
-	cout << "\nThankYou for using Turk Bank Limited�" << endl;
+	cout << "\nThankYou for using our Bank" << endl;
 	cout << "==== GOODBYE ====" << endl;
 
 	return 0;
